@@ -1,5 +1,5 @@
 export default async function getWeather(address){
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(address)}&appid=${process.env.OPENWEATHERMAP_API}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(address)}&appid=308111ac0516c2961282b1ce6d2141e9&units=metric`;
 
     try {
         const response = await fetch(url);

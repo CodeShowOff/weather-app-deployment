@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: weather-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: OPENWEATHERMAP_API
+        sync: false
